@@ -1,0 +1,333 @@
+body {
+    margin: 0 auto;
+}
+
+h1, h2, h3, ul, img, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+
+    background: #19191B;
+}
+
+/*--------------------------------------------------Hero-----------------------------------------------*/
+.first {
+    height: 100vh;
+}
+
+header {
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.logo > span {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+    color: #FFFFFF;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    list-style: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.70);
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:focus {
+    color: #5454D4;
+
+    text-align: right;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+header > button {
+    width: 10vw;
+    height: 44px;
+
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    background: #19191B;
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    background-color: #19191B;
+
+}
+
+.heroDescription {
+    max-width: 40vw;
+}
+
+.heroDescription > h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 2vh;
+    padding-top: 12vh;
+
+    color: #FFF;
+}
+
+.heroDescription > p {
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 4vh;
+    padding-right: 4vw;
+
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.heroImage {
+    margin-top: -20px;
+}
+
+.violetButton {
+    width: 19vw;
+    height: 58px;
+
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+}
+
+/*--------------------------------------------------Video about company-------------------------------------*/
+.companyVideo {
+    height: 100vh;
+    padding-top: 5vh;
+}
+
+.descriptionCompanyVideo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 4vh;
+}
+
+.descriptionCompanyVideo > h2 {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+
+    color: #FFF;
+}
+
+.descriptionCompanyVideo > p {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.companyVideo > img {
+    height: 62vh;
+    width: 100%;
+}
+
+/*------------------------------------Services we provide------------------------------------------*/
+.servicesCompanyProvides {
+    height: 100vh;
+    padding-top: 5vh;
+}
+
+.servicesCompanyProvides > h2 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    margin-bottom: 4vh;
+
+    color: #FFF;
+}
+
+
+.providedServices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+}
+
+.providedServices > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 26vw;
+    max-height: 20vh;
+}
+
+.providedServices > li > img {
+    width: 32px;
+    height: 32px;
+}
+
+.providedServices > li > h3 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+
+    color: #FFF;
+}
+
+.providedServices > li > p {
+    padding-left: 42px;
+    padding-right: 24px;
+
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+
+    color: rgba(255, 255, 255, 0.70);
+}
+
+/*-------------------------------------Portofolio------------------------------*/
+.portofolio {
+    height: 100vh;
+    padding-top: 5vh;
+}
+
+.portofolio > h2 {
+    margin-bottom: 15vh;
+    font-family: "Lato", sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    color: #FFF;
+}
+
+.portofolioProjects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.portofolioProjects > li {
+    width: 33.3%;
+    padding: 24px;
+    border-radius: 14px;
+    background: #1E1E20;
+}
+
+.portofolioProjects > li > img {
+    width: 100%;
+}
+
+/*---------------------------------------ContactInfo---------------------------------*/
+.contactInfo {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo > h2 {
+    width: 57vw;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #FFF;
+}
+
+/*----------------------------------------Footer------------------------------------*/
+footer {
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > h3 {
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+
+    color: rgba(255, 255, 255, 0.70);
+}
