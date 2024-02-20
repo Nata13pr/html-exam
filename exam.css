@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    background: #19191B;
 }
 
 h1, h2, h3, ul, img, p {
@@ -13,7 +14,7 @@ h1, h2, h3, ul, img, p {
     padding-right: 120px;
     box-sizing: border-box;
 
-    background: #19191B;
+
 }
 
 /*--------------------------------------------------Hero-----------------------------------------------*/
@@ -101,7 +102,9 @@ header > button {
     display: flex;
     gap: 30px;
     overflow: hidden;
-    background-color: #19191B;
+
+    background:url("images/Rectangle 9543.png") center;
+    background-size: cover;
 
 }
 
@@ -123,14 +126,15 @@ header > button {
     font-family: "Lato", sans-serif;
     font-size: 21px;
     font-weight: 400;
-    margin-bottom: 4vh;
-    padding-right: 4vw;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    padding-right: 43px;
 
     color: rgba(255, 255, 255, 0.70);
 }
 
 .heroImage {
-    margin-top: -20px;
+    margin-top: -60px;
 }
 
 .violetButton {
@@ -157,7 +161,6 @@ header > button {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 4vh;
 }
 
 .descriptionCompanyVideo > h2 {
@@ -186,12 +189,16 @@ header > button {
 .companyVideo > img {
     height: 62vh;
     width: 100%;
+    padding-top: 50px;
 }
 
 /*------------------------------------Services we provide------------------------------------------*/
 .servicesCompanyProvides {
     height: 100vh;
     padding-top: 5vh;
+    
+    background:url("images/Rectangle 9543.png") center;
+    background-size: cover;
 }
 
 .servicesCompanyProvides > h2 {
@@ -299,6 +306,7 @@ header > button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(30, 30, 32, 0.50);
 }
 
 .contactInfo > h2 {
